@@ -9,7 +9,7 @@ class Solution
 public:
     ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
     {
-        // 【阶段一：创建1+2个指针】
+        // 【阶段一：创建虚拟头节点、创建1+2个指针】
         ListNode dummy(-1);          // 创建虚拟头节点（构造目标链表）
         ListNode *p = &dummy;        // 1个"目标链表-构造指针"
         ListNode *p1 = l1, *p2 = l2; // 2个"已有链表-游走指针"
