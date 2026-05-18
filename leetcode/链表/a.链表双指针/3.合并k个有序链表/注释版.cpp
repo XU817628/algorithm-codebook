@@ -4,6 +4,7 @@
 /*
     《合并K个有序链表》
     -优先级队列/二叉堆
+    ?【历史最佳】12min09s
 */
 
 // 共【4个】阶段
@@ -12,7 +13,7 @@ class Solution
 public:
     ListNode *mergeKList(vector<ListNode *> &lists)
     {
-        // 边界检查：链表数组不为空
+        // 边界检查：若链表数组为空，直接返回空指针
         if (lists.empty())
             return nullptr;
 
